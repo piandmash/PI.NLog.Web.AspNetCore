@@ -5,7 +5,7 @@ using System.Text;
 
 // With thanks to Ian Williams from Takka Productions for this Extension from his TurboDash
 
-namespace PI.Core.NLog.Extensions
+namespace PI.NLog.Extensions
 {
     /// <summary>
     /// Render the request IP for ASP.NET Core

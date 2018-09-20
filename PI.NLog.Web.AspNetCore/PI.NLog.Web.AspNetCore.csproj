@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netstandard2.0;netstandard1.5;net46;net451</TargetFrameworks>
+    <Description>Useful extensions for NLog.Web.AspNetCore</Description>
+    <PackageLicenseUrl>https://github.com/piandmash/PI.NLog.Web.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piandmash/PI.NLog.Web.AspNetCore</PackageProjectUrl>
+    <PackageIconUrl>https://www.piandmash.com/pi_logo.png</PackageIconUrl>
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+    <Company>Pi &amp; Mash Limited</Company>
+    <Authors>Pete Cleary</Authors>
+    <Product>PI.NLog.Web.AspNetCore</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>logging, log, aspnetcore, NLog, httpcontext, session, web, aspnet, MVC</PackageTags>
+    <RepositoryUrl>https://github.com/piandmash/PI.NLog.Web.AspNetCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
